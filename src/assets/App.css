@@ -75,19 +75,45 @@ li{
   background: #9FB8AD;
 }
 
+.projectsContainer {
+  margin: 0 5% 0 5%;
+  background: #9FB8AD;
+}
+
 .project {
-  /*text-align: left;
-  padding-left: 2em;*/
+  text-align: center;
+  clear: both;
+  color: black;
+}
+
+p {
+  text-align: left;
+  padding-left: 5%;
+  width: 600px;
+  position: absolute;
+  font-size: .8em;
 }
 
 .projectBox {
   background-color: #E6E8E6;
   padding: 20px;
+  height: 300px;
+}
+
+.projectBox2 {
+  height: 300px;
+  padding: 20px;
 }
 
 .image1 {
   height: 200px;
+  float: right;
+  margin-right: 5%;
+}
 
+.image1:hover {
+  transform: scaleY(1.2) scaleX(1.2);
+  cursor: pointer;
 }
 
 .mattPhoto {
