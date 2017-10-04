@@ -1,0 +1,110 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 150px;
+  padding-top: 30px;
+}
+
+.App-header {
+  /*background-color: #5f6f63;*/
+  background: linear-gradient(to bottom right, #5f6f63, #9FB8AD, #CED0CE);
+  height: 270px;
+  padding: 1px;
+}
+
+.Title{
+  color: #222;
+  margin-top: -20px;
+}
+
+.list{
+  list-style: none;
+  font-size: 1em;
+  margin-top: -5px;
+}
+
+li{
+  display: inline-block;
+  padding: 1em 2em 2em 10px;
+  color: #C2574A;
+  text-decoration: none;
+}
+
+.listItem, .listItem:visited, .listItem:active {
+  color: #C2574A;
+  text-decoration: none;
+}
+
+.listItem:hover {
+  color: #CED0CE;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.heroImage {
+  height: 400px;
+}
+
+.smallImage {
+  height: 200px;
+}
+
+.mattGonzer {
+  /*background: linear-gradient(to bottom right, #E6E8E6, #CED0CE);*/
+  /*margin-top: -40px;*/
+  padding: 50px 0 0 0;
+  height: 400px;
+}
+
+.mg {
+  color: #5F6F63;
+}
+
+.about {
+  height: 400px;
+  background: #9FB8AD;
+}
+
+.project {
+  /*text-align: left;
+  padding-left: 2em;*/
+}
+
+.image1 {
+  height: 200px;
+
+}
+
+.mattPhoto {
+  height: 120px;
+}
+
+.footer {
+  height: 150px;
+  background: #5f6f63;
+  padding-top: 10px;
+  font-size: 20px;
+  margin-top: 2em;
+}
+
+.resumeButton {
+  width: 30%;
+  padding: .5em;
+  font-size: .5em;
+  font-family: myFont;
+  margin-top: 2em;
+  background: #9FB8AD;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.resumeButton:hover {
+  background: #5F6F63;
+}
+
+.resumeButton:focus{
+  outline: none;
+}

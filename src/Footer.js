@@ -1,0 +1,18 @@
+import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
+import logo from './MG.png';
+import './App.css';
+
+class Footer extends Component {
+  render() {
+    return (
+      <footer>
+        <div className='footer'>
+          <p>Email: matthewgonzer@gmail.com</p>
+        </div>
+      </footer>
+    );
+  }
+}
+
+export default Footer;
