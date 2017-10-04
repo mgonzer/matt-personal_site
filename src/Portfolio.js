@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import littlehelpers from './littlehelpers.png'
-import regxpress from './regxpress.png'
-import omw from './omw.png'
+import littlehelpers from './assets/littlehelpers.png'
+import regxpress from './assets/regxpress.png'
+import omw from './assets/omw.png'
 
 class Portfolio extends Component{
   render(){

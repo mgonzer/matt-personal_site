@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { Parallax } from 'react-parallax';
-import mountains from './mountains.jpg';
-import beach from './beach.jpg';
-import matt from './MG2.jpg'
+import mountains from './assets/mountains.jpg';
+import matt from './assets/MG2.jpg'
 
 
 class Home extends Component{

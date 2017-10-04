@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ReactPDF from 'react-pdf';
-import MGResume from './MatthewGonzer-Resume.pdf'
+import MGResume from './assets/MatthewGonzer-Resume.pdf'
 
 class Resume extends Component{
   render(){
