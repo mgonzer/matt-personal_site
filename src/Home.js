@@ -13,7 +13,7 @@ class Home extends Component{
         </Parallax>
         <div className="mattGonzer">
           <h2 className="mg">Matthew Gonzer</h2>
-          <h4>Full-Stack Developer</h4>
+          <h4 className="fullStack">Full-Stack Developer</h4>
           <img className="mattPhoto" src={matt}></img>
         </div>
       </div>

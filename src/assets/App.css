@@ -60,7 +60,14 @@ li{
 }
 
 .mg {
+  margin-top: 0;
+  margin-bottom: 0;
   color: #5F6F63;
+  font-size: 2.5em;
+}
+
+.fullStack {
+  margin-top: 0;
 }
 
 .about {
@@ -71,6 +78,11 @@ li{
 .project {
   /*text-align: left;
   padding-left: 2em;*/
+}
+
+.projectBox {
+  background-color: #E6E8E6;
+  padding: 20px;
 }
 
 .image1 {
