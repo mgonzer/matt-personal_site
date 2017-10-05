@@ -36,6 +36,7 @@ li{
 .listItem, .listItem:visited, .listItem:active {
   color: #C2574A;
   text-decoration: none;
+  font-family: 'Cutive Mono', monospace;
 }
 
 .listItem:hover {
@@ -78,6 +79,8 @@ li{
 .projectsContainer {
   margin: 0 5% 0 5%;
   background: #9FB8AD;
+  border-style: solid;
+  border-width: thin;
 }
 
 .project {
@@ -92,6 +95,8 @@ p {
   width: 600px;
   position: absolute;
   font-size: .8em;
+  font-family: 'Lato', sans-serif;
+  color: black;
 }
 
 .projectBox {
