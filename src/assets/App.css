@@ -92,7 +92,7 @@ li{
   margin: 0 auto;
 }
 
-p {
+#projectInfo {
   text-align: left;
   padding-left: 5%;
   width: 600px;
@@ -153,4 +153,10 @@ p {
 
 .resumeButton:focus{
   outline: none;
+}
+
+#contactInfo {
+  text-align: center;
+  color: black;
+  font-size: 1.3em;
 }
