@@ -10,7 +10,7 @@ class Resume extends Component{
         <hr />
         <ReactPDF file={MGResume} />
         <br />
-        <a href="https://www.dropbox.com/s/4fu1m61radwcxmw/MatthewGonzer-Resume.pdf?dl=1">
+        <a href="https://www.dropbox.com/s/mjl8lng93ks7ip8/MatthewGonzer-Resume.pdf?dl=1">
           <button className='resumeButton'>Download</button>
         </a>
 
