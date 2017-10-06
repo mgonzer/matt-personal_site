@@ -83,6 +83,65 @@ li{
   border-width: .8px;
 }
 
+@media (max-width: 1100px) {
+    #projectInfo {
+      display: block;
+      text-align: center !important;
+      position: inherit !important;
+      font-size: 1.5em;
+      width: 80% !important;
+      padding: 1% 2% !important;
+      margin: auto !important;
+
+
+    }
+
+    .image1 {
+      float: none !important;
+      margin: auto !important;
+    }
+
+    .projectBox2 {
+      height: auto !important;
+    }
+
+    .projectBox {
+      height: auto !important;
+    }
+
+    .project {
+      width: auto !important;
+    }
+
+}
+
+@media (max-width: 700px){
+  .list{
+    font-size: .5em;
+  }
+
+  #projectInfo {
+    font-size: .5em !important;
+  }
+
+  .project {
+    font-size: .8em !important;
+  }
+
+  .image1 {
+    height: 150px !important;
+  }
+
+  .App-header {
+    height: 180px !important;
+  }
+
+  .App-logo {
+    height: 100px !important;
+  }
+
+}
+
 .project {
   text-align: center;
   clear: both;
