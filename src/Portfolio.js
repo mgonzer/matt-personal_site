@@ -12,25 +12,39 @@ class Portfolio extends Component {
         <div className="projectsContainer">
           <div className="projectBox2">
             <h3 className="project">LunaPortal</h3>
-            <p id="projectInfo">LunaPortal is practice management application built for an Acupuncture Clinic
-              that specializes in fertility and womans health.</p>
+            <p id="projectInfo"><i>LunaPorta</i>  is practice management application built for an Acupuncture Clinic
+              that specializes in fertility and womans health. <br/>
+            <br />
+            <b>Tech</b>: JavaScript, Node.js, express, React, Redux, Heroku, bCyppt</p>
+
             <a target="_blank" href="https://lunaportal.net"><img className="image1" src={lunaPortal}/></a>
 
           </div>
           <div className="projectBox">
             <h3 className="project">Little Helpers</h3>
-            <p id="projectInfo">Little Helpers is a task/reward tracker app for parents and their children.</p>
+            <p id="projectInfo"><i>Little Helpers</i> is a task/reward tracker app for parents and their children. <br />
+            <br />
+            <b>Tech</b>: JavaScript, PostreSQL, Knex, Node.js, express, Knex, HTML, CSS, Bootstrap</p>
+
             <a target="_blank" href="https://littlehelpers.world"><img className="image1" src={littlehelpers}></img></a>
           </div>
           <div className="projectBox2">
           <h3 className="project">RegXpress</h3>
-          <p id="projectInfo">RegXpress is an online tournament for developers to test their knowledge of regular expressions.</p>
-          <a target="_blank" href="https://regxpress-cb9b9.firebaseapp.com/"><img className="image1" src={regxpress}/></a>
+          <p id="projectInfo"><i>RegXpress</i> is an online tournament for developers to test their knowledge of regular expressions. <br />
+          <br />
+            <b>Tech</b>: JavaScript, AngularJS, PostreSQL, Node.js, express, Knex,Socket.io, HTML, CSS
+          </p>
+
+        <a target="_blank" href="https://regxpress-cb9b9.firebaseapp.com/"><img className="image1" src={regxpress}/></a>
           </div>
           <div className="projectBox">
           <h3 className="project">Outside My Window</h3>
-          <p id="projectInfo">Outside my Window is an image based weather app that allows users to acually "see" what it looks like outside</p>
-          <a target="_blank" href="https://outside-my-window.firebaseapp.com/"><img className="image1" src={omw}></img></a>
+          <p id="projectInfo"><i>Outside My Window</i> is an image based weather app that allows users to acually "see" what it looks like outside <br/>
+          <br />
+        <b>Tech</b>: JavaScript, jQuery, AJAX, Wunderground API, HTML, CSS, Materialize
+          </p>
+
+        <a target="_blank" href="https://outside-my-window.firebaseapp.com/"><img className="image1" src={omw}></img></a>
           </div>
         </div>
       </div>
